@@ -32,7 +32,7 @@
                         <i class="fa fa-home text-primary" style="font-size:1.5rem;margin-right:1rem;"></i>
                     </div>
                     <div class="d-flex flex-column align-items-start justify-content-center">
-                        <p class="paragraph_contact_text">No.206, Vellaikannu Nagar, Theni main road,</p>
+                        <p class="paragraph_contact_text">No.207/49 A, VOC Nagar, North Street, Kalavasal,</p>
                         <p class="paragraph_contact_text">Madurai-625016, Tamil Nadu, India.</p>
                     </div>
                 </div>

@@ -13,15 +13,21 @@
             <a class="nav-link" href="/about_page">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="/service">Service</a>
-          </li>
-          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/iot_service">IOT Service</a>
+                <a class="dropdown-item" href="/customer_service">Customer Service</a>
+                <a class="dropdown-item" href="/product_development_service">Production Development Service</a>
+                <a class="dropdown-item" href="/etap_solution">Etap Solution</a>
+            </div>
+        </li>
+          <li class="nav-item ">
             <a class="nav-link" href="/clients">Our Clients</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item ">
             <a class="nav-link" href="/contact_us">Contact US</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item ">
             <a class="nav-link" href="/work">Work</a>
           </li>
         </ul>

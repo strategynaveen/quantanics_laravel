@@ -464,6 +464,28 @@
 </section> --}}
 
 {{-- third row cards --}}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md ">
+                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 8rem;width:8rem;" alt="">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md ">
+                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 14rem;width:14rem;" alt="">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md ">
+                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 14rem;width:14rem;" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection
 
