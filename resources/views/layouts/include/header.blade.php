@@ -22,7 +22,7 @@
             </div>
         </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/clients">Our Clients</a>
+            <a class="nav-link" href="/oru_clients">Our Clients</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="/contact_us">Contact US</a>

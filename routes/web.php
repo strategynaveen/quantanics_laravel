@@ -28,3 +28,7 @@ Route::get('contact_us',function(){
 Route::get('services',function(){
     return view('services_page');
 });
+
+Route::get('oru_clients',function(){
+    return view('clients'); 
+});
