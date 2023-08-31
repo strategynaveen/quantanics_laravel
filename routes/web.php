@@ -32,3 +32,6 @@ Route::get('services',function(){
 Route::get('oru_clients',function(){
     return view('clients'); 
 });
+Route::get('work',function(){
+    return view('work_page'); 
+});
