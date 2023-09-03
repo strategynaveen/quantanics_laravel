@@ -28,3 +28,29 @@ Route::get('contact_us',function(){
 Route::get('services',function(){
     return view('services_page');
 });
+
+Route::get('oru_clients',function(){
+    return view('clients'); 
+});
+Route::get('work',function(){
+    return view('work_page'); 
+});
+
+// services
+Route::prefix('services')->group(function(){
+    Route::get('iot',function(){
+        return view('iot_service');
+    });
+
+    Route::get('customer',function(){
+        return view('customer_service');
+    });
+
+    Route::get('development',function(){
+        return view('development_service');
+    });
+
+    Route::get('etap',function(){
+        return view('etap_service');
+    });
+});
