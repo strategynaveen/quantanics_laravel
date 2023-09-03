@@ -119,7 +119,7 @@
         <!--chatbot--->
 
 
-        <div id="box">
+        {{-- <div id="box">
           <div class="top">
             <h1>Ask your Question??<div class="button1"><button onclick="show()"><i class="fa fa-times"></i></button>
                 &emsp;</div>
@@ -137,7 +137,7 @@
 
             <button class="button" onclick="talk()"><i style="font-size: 25px;" class="fa fa-paper-plane"></i></button>
           </div>
-        </div>
+        </div> --}}
 
 
 
