@@ -7,7 +7,7 @@
 @section('title','Quantanics About')
 @section('main-content')
 {{-- about image --}}
-<section class="container prevent-select" style="margin-top: 5%;">
+<section class="container prevent-select mr-top-10" >
     <div class="d-flex align-items-center justify-content-center p-3">
         <img src="{{ asset('about/abt1.jpg') }}" class="only_img" style="mix-blend-mode: darken;" alt="">
     </div>

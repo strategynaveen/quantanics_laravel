@@ -7,9 +7,8 @@
 @extends('layouts.default')
 @section('title','Quantanics Website')
 @section('main-content')
-
-<body>
-  <h1 class="title">Academic Clients</h1>
+  <div class="mr-top-10">
+    <h1 class="title">Academic Clients</h1>
   <div id="app" class="container">
     <card data-image="clients/nokia-logo-.png">
       <!-- <h1 slot="header">Home Automation</h1> -->
@@ -70,7 +69,9 @@
     <card data-image="./clients/prime/img31.png">
     </card>
   </div>
+  </div>
+  
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
   <script src="{{ asset('js/work_page.js') }}"></script>
-</body>
+
 @endsection

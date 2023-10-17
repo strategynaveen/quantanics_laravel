@@ -1,0 +1,36 @@
+#services_side_sidenav a{
+    position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+
+#services_side_sidenav a:hover {
+    left: 0;
+  }
+  
+  #iot_services {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #customer_services {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #product_dev_services {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #etap_services {
+    top: 200px;
+    background-color: #555
+  }
