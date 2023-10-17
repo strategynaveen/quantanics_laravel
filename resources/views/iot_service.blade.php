@@ -1,13 +1,28 @@
+
+<link rel="stylesheet" href="{{ asset('css/services_css') }}">
+
+
 @extends('layouts.default')
 @section('title','Iot Services')
 @section('main-content')
 
+
+<div class="services_side_nav" id="services_side_sidenav">
+    <a href="#" id="iot_services">Iot Services</a>
+    <a href="#" id="customer_services">Customer Services</a>
+    <a href="#" id="product_dev_services">Product Development Services</a>
+    <a href="#" id="etap_services">Etap Solution</a>
+
+</div>
+
 {{-- iot image --}}
-<section class="container-fluid mt-5 mb-3">
+<section class="container-fluid  mb-3 mr-top-10">
     <div class="row border border-0">
         <img src="{{ asset('servicesimg/iotserviceimages/Office Event QII copy.png') }}" class="img img-thumbnail" style="border: none;" alt="">
     </div>
 </section>
+
+
 
 <div class="container-fluid">
     <h2 class="text-center text-dark p-4">Whats is IOT ?</h2>

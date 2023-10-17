@@ -7,7 +7,7 @@
 @section('main-content')
 
 
-<section class="container mt-5">
+<section class="container mr-top-10">
     {{-- title text content --}}
     <div class="d-flex flex-column align-items-start justify-content-center" style="font-size: 25px;">
         <h1>Contact Us</h1>

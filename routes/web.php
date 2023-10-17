@@ -29,16 +29,21 @@ Route::get('services',function(){
     return view('services_page');
 });
 
-Route::get('oru_clients',function(){
+Route::get('our_client',function(){
     return view('clients'); 
 });
 Route::get('work',function(){
     return view('work_page'); 
 });
 
+// eic
+Route::get('eic',function(){
+    return view('eic_schem');   
+});
+
 // services
 Route::prefix('services')->group(function(){
-    Route::get('iot',function(){
+    Route::get('/',function(){
         return view('iot_service');
     });
 

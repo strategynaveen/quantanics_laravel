@@ -93,7 +93,6 @@
 
 
 <section>
-
   <!--- our domains-->
   <h1 class="containerh1">OUR DOMAINS
     <hr>
@@ -188,9 +187,10 @@
     </h1>
     <img src="{{ asset('img/img2.png') }}" class="img-fluid" alt="Responsive image">
 
-  </div>
+</div>
 
 
+{{-- our clients --}}
 <div id="ourpartners">
     <h1 class="containerh1">OUR CLIENTS <br />
       <hr>
@@ -214,275 +214,89 @@
 
 {{-- card our client --}}
 
- {{-- forst row cards --}}
-{{-- <section class="card-area">
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <!-- <img src="img/img1.png" ><img> -->
-              <img src=" {{ asset('clients/img1.png') }}" class="card-img" alt="" style="margin-top: 50px;">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/img1.png') }}" class="card-img" alt="" style="margin-top: 50px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 5px;">
-              Nokia Corporation
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src=" {{ asset('clients/img2.png') }}" alt="" class="card-img" style="margin-top: 0px;">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/img2.png') }}" alt="" class="card-img" style="margin-top: 0px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 20px;">
-              Sri Mookambika Info Solutions Pvt Ltd
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/img3.png') }}" alt="" class="card-img" style="margin-top: 40px;">
-            </div>
-            <div class="card-back">
-              <img src=" {{ asset('clients/img3.png') }}" alt="" class="card-img" style="margin-top: 40px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 15px;">
-              INNOMAINT
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/img4.png') }}" alt="" class="card-img">
-            </div>
-            <div class="card-back">
-              <img src=" {{ asset('clients/img4.png') }}" alt="" class="card-img">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 20px;">
-              TITAN COMPANY LIMITED
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/new/prime/img2.png') }}" alt="" class="card-img">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/new/prime/img2.png') }}" alt="" class="card-img">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading " style="margin-top: 20px;">
-              INDIAN OIL CORPORATION LIMITED
-            </h3>
-            <p class="inside-page__text">
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-</section> --}}
-
-{{-- second row cards --}}
-{{-- <section class="card-area">
-    <section class="card-section">
-      <div class="card-div">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{asset('clients/new/prime/img5.jpg') }}" alt="" class="card-img">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/new/prime/img5.jpg') }}" alt="" class="card-img">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 15px;">
-              InfyIoT Solutions
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="card-section">
-      <div class="card">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/new/prime/img10.png') }}" alt="" class="card-img" style="margin-top: 50px;">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/new/prime/img10.png') }}" alt="" class="card-img" style="margin-top: 50px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 20px;">
-              SMARTORIES
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/img8.jpg') }}" class="card-img" alt="">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/img8.jpg') }}" class="card-img" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 15px;">
-              GEOMEO INFORMATICS
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/img9.png') }}" alt="" class="card-img" style="margin-top: 30px;">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/img9.png') }}" alt="" class="card-img" style="margin-top: 30px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading " style="margin-top: 5px;">
-              GUVI
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="card">
-        <div class="flip-card">
-          <div class="flip-card__container">
-            <div class="card-front">
-              <img src="{{ asset('clients/new/prime/img11.png') }}" alt="" class="card-img" style="margin-top: 20px;">
-            </div>
-            <div class="card-back">
-              <img src="{{ asset('clients/new/prime/img11.png') }}" alt="" class="card-img" style="margin-top: 20px;">
-            </div>
-          </div>
-        </div>
-        <div class="inside-page">
-          <div class="inside-page__container">
-            <h3 class="inside-page__heading" style="margin-top: 25px;">
-              Pop Farme Tech Pvt Ltd
-            </h3>
-            <p class="inside-page__text">
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-</section> --}}
-
 {{-- third row cards --}}
 <section class="container-fluid">
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card border border-0 shadow shadow-md ">
-                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 8rem;width:8rem;" alt="">
+    <div class="row mb-4">
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md width-20">
+                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail mx-auto" style="height: 8rem;width:8rem;border:none;" alt="">
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card border border-0 shadow shadow-md ">
-                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 14rem;width:14rem;" alt="">
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md width-20">
+                <img src="{{asset('clients/prime/img9.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card border border-0 shadow shadow-md ">
-                <img src="{{asset('clients/img1.png')}}" class="img-thumbnail" style="height: 14rem;width:14rem;" alt="">
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="card border border-0 shadow shadow-md  width-20">
+                <img src="{{asset('clients/prime/img6.jpeg')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
             </div>
         </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img8.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img2.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img5.jpg')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img10.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img13.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/guvi.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img11.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img16.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card border border-0 shadow shadow-md  width-20">
+              <img src="{{asset('clients/prime/img12.jpeg')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-lg-2 col-md-6 col-sm-12">
+        <div class="card border border-0 shadow shadow-md  width-20">
+            <img src="{{asset('clients/prime/edge-matrix.png')}}" class="img-thumbnail mx-auto" style="height:8rem;width:8rem;border:none;" alt="">
+        </div>
+      </div>
+    </div>
     </div>
 </section>
 

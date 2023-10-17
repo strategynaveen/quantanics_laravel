@@ -10,7 +10,7 @@
 @section('main-content')
 <body>
   <!-- <h1 class="title">Hover over the cards</h1> -->
-  <div id="app" class="containerW">
+  <div id="app" class="containerW mr-top-10">
     <card data-image="./works-img/img1.jpg">
       <h1 slot="header">Home Automation</h1>
       <p slot="content">Internet of Things</p>
