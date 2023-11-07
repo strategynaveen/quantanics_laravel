@@ -47,15 +47,15 @@ Route::prefix('services')->group(function(){
         return view('iot_service');
     });
 
-    Route::get('customer',function(){
-        return view('customer_service');
-    });
+    // Route::get('customer',function(){
+    //     return view('customer_service');
+    // });
 
-    Route::get('development',function(){
-        return view('development_service');
-    });
+    // Route::get('development',function(){
+    //     return view('development_service');
+    // });
 
-    Route::get('etap',function(){
-        return view('etap_service');
-    });
+    // Route::get('etap',function(){
+    //     return view('etap_service');
+    // });
 });

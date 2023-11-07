@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.search_form{
+    width: 330px;
+}
+@media (max-width: 992px) {
+    .dropdown-menu{
+        margin-left: 70px;
+    }
+    .search_form{
+        width: 220px;
+    }
+    .nav-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+.form-control{
+    border-color: #ced4da;
+    border-radius: 7px 0 0 7px;
+    border-right: none;
+}
+.custom-input:focus {
+    border-color: #ced4da; /* Change this to your desired border color */
+    box-shadow: none; /* Remove any box-shadow */
+}
+.search-btn{
+    border-radius:0 7px 7px 0;
+}
+.search-btn:focus, .search-btn:active {
+    box-shadow: none; /* Remove any box-shadow on focus and click (mousedown) */
+}
+.icon_with_search_box{
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.nav-link{
+    padding: 0%;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.custom-toggler-icon {
+    width: 24px;
+    height: 2px;
+    background-color: #333; /* Color of the lines */
+    margin: 4px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-open .custom-toggler-icon:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.menu-open .custom-toggler-icon:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-open .custom-toggler-icon:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+/* .navbar-nav div:not(:last-child) {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* font size */
+.fsize{
+    font-size: 2rem;
+}
